@@ -1,0 +1,49 @@
+/* Style for the entire page */
+body {
+  background-color: skyblue;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Style for recipe title */
+h1 {
+  color: #ff5733;
+  text-transform: uppercase;
+}
+
+/* Style for section headings */
+h2 {
+  color: #4caf50;
+}
+h3{
+  color: red;
+}
+
+/* Style for ingredient list */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+/* Style for list items */
+li {
+  margin-bottom: 10px;
+}
+
+/* Style for additional paragraphs */
+p {
+  text-transform: capitalize;
+}
+
+/* Style for links */
+a {
+  color: #1e90ff;
+}
+
+/* Hover effect for links */
+a:hover {
+  color: #ff4500;
+}
