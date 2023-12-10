@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <title>My Favorite Recipe collection</title> 
+</head>
+<body>
+
+    <div id="container-box">
+    
+        <div id="title-box">
+            <h1>Welcome to My Favorite Recipe collection!</h1>
+        </div>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="breakfast.html">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+            <a href="dessert.html">Dessert</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+            
+        <div class="content">
+            <h2>Hello, I'm Zehra!</h2>
+            <p>I'm excited to share my favorite recipes with you on this website. This project represents the culmination of my web development skills learned in the CSIT 121 course. Each section is dedicated to a different mealtime, and I hope you find inspiration in trying out these delicious dishes!</p>
+</div>
+
+
+<div class="poll-container">
+    <form id="category-poll">
+        <p>Which categories of recipes do you look for the most?</p>
+        <label>
+            <input type="checkbox" name="categories" value="breakfast"> Breakfast
+        </label>
+        <label>
+            <input type="checkbox" name="categories" value="lunch"> Lunch
+        </label>
+        <label>
+            <input type="checkbox" name="categories" value="dinner"> Dinner
+        </label>
+        <label>
+            <input type="checkbox" name="categories" value="dessert"> Dessert
+        </label>
+        <label>
+            <input type="checkbox" name="categories" value="all"> All of the above
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="category-poll-result"></p>
+</div>
+
+
+<div class="title">
+        <p>For more related recipes, visit the link below:</p>
+    </div>
+<div class="image-container clearfix">
+    <div class="website-container">
+        <a href="https://www.food.com/" target="_blank" rel="noopener noreferrer">
+            <img src="foodcom.jpeg" alt="Food.com">
+            <p class="website-name">Food.com</p>
+        </a>
+    </div>
+
+    <div class="website-container">
+        <a href="https://www.thekitchn.com/" target="_blank" rel="noopener noreferrer">
+            <img src="thekitchen.jpeg" alt="The Kitchn">
+            <p class="website-name">The Kitchn</p>
+        </a>
+    </div>
+
+    <div class="website-container">
+        <a href="https://www.foodnetwork.com/" target="_blank" rel="noopener noreferrer">
+            <img src="foodnetwork.jpeg" alt="Food Network">
+            <p class="website-name">Food Network</p>
+        </a>
+    </div>
+
+    <div class="website-container">
+        <a href="https://www.simplyrecipes.com/" target="_blank" rel="noopener noreferrer">
+            <img src="simplerecipe.jpeg" alt="Simply Recipes">
+            <p class="website-name">Simply Recipes</p>
+        </a>
+    </div>
+    </div>
+
+    <div class="clearfix"></div> 
+    <div class="title">
+    <p> Thank you for visiting My website! </p>
+</div>
+<div id="search-bar">
+    <form action="/search" method="get">
+        <label for="recipe-search">What do you like to cook?</label>
+        <input type="text" id="recipe-search" name="q" placeholder="Type here and submit" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+        <div class="footer">
+    <p>&copy; 2023 Zehra Nuri.</p>
+  </div>
+</body>
+</html>
